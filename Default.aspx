@@ -4,9 +4,9 @@
     <section class="featured">
         <div class="content-wrapper">
             <hgroup class="title">
-                <h1><%: Title %>.</h1>
-                <h2>Xin chào các bạn đến với Giang Hằng Hoài Mobile</h2>
+                <!--<h1><%: Title %>.</h1>-->
             </hgroup>
+            <asp:Image ImageUrl="~/Images/iphone6.jpg" runat="server" CssClass="" />
         </div>
     </section>
 </asp:Content>

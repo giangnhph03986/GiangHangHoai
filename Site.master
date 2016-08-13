@@ -4,7 +4,7 @@
 <html lang="en">
 <head runat="server">
     <meta charset="utf-8" />
-    <title><%: Page.Title %> - My ASP.NET Application</title>
+    <title><%: Page.Title %></title>
     <asp:PlaceHolder runat="server">      
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
@@ -39,7 +39,7 @@
         <div class="content-wrapper">
             <div class="float-left">
                 <p class="site-title">
-                    <a runat="server" href="~/">your logo here</a></p>
+                    <a runat="server" href="~/"><asp:Image ImageUrl="~/Images/logo.jpg" runat="server" /></a></p>
             </div>
             <div class="float-right">
                 <section id="login">
@@ -68,7 +68,6 @@
                         <li><a runat="server" href="~/Account.aspx">Tài khoản</a></li>
                         <li><a runat="server" href="~/Purchase.aspx">Đơn hàng</a></li>
                         <li><a runat="server" href="~/Purchase_detail.aspx">Chi tiết đơn hàng</a></li>
-                        <li><a runat="server" href="~/About.aspx">Giới thiệu</a></li>
                         <li><a runat="server" href="~/Contact.aspx">Liên hệ</a></li>
                     </ul>
                 </nav>
@@ -83,9 +82,9 @@
     </div>
     <footer>
         <div class="content-wrapper">
-            <div class="float-left">
-                <p>
-                    &copy; <%: DateTime.Now.Year %> - My ASP.NET Application
+            <div>
+                <p style="text-align:center">
+                    &copy; <%: DateTime.Now.Year %> - <%: Page.Title %>
                 </p>
             </div>
         </div>

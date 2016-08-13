@@ -8,8 +8,8 @@
             </hgroup>
             <asp:DetailsView ID="DetailsView1" runat="server" Height="50px" Width="125px" AllowPaging="True" AutoGenerateRows="False" DataKeyNames="purchase_ID" DataSourceID="SqlDataSource1">
                 <Fields>
-                    <asp:BoundField DataField="purchase_ID" HeaderText="purchase_ID" ReadOnly="True" SortExpression="purchase_ID" />
-                    <asp:BoundField DataField="username" HeaderText="username" SortExpression="username" />
+                    <asp:BoundField DataField="purchase_ID" HeaderText="ID đơn hàng" ReadOnly="True" SortExpression="purchase_ID" />
+                    <asp:BoundField DataField="username" HeaderText="Khách hàng" SortExpression="username" />
                     <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" ShowInsertButton="True" />
                 </Fields>
             </asp:DetailsView>

@@ -108,11 +108,11 @@ h5, h6 {
         padding-left: 10px;
         padding-top: 30px;
     }
-
+    /*
     .featured + .main-content {
         background: url("../Images/heroAccent.png") no-repeat;
     }
-
+*/
 header .content-wrapper {
     padding-top: 20px; 
 }
