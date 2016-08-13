@@ -7,7 +7,7 @@
                 <h1><%: Title %>.</h1>
             </hgroup>
          
-                <asp:DetailsView ID="DetailsView1" runat="server" Height="50px" Width="125px" AllowPaging="True" AutoGenerateRows="False" DataKeyNames="cate_ID" DataSourceID="SqlDataSource1">
+                <asp:DetailsView ID="DetailsView1" runat="server" Height="50px" Width="500px" AllowPaging="True" AutoGenerateRows="False" DataKeyNames="cate_ID" DataSourceID="SqlDataSource1">
                     <Fields>
                         <asp:BoundField DataField="cate_ID" HeaderText="ID loại sản phẩm" ReadOnly="True" SortExpression="cate_ID" />
                         <asp:BoundField DataField="cate_name" HeaderText="Tên loại sản phẩm" SortExpression="cate_name" />

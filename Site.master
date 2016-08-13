@@ -84,7 +84,7 @@
         <div class="content-wrapper">
             <div>
                 <p style="text-align:center">
-                    &copy; <%: DateTime.Now.Year %> - <%: Page.Title %>
+                    &copy; <%: DateTime.Now.Year %> - Giang Hằng Hoài Mobile
                 </p>
             </div>
         </div>

@@ -6,7 +6,7 @@
             <hgroup class="title">
                 <h1><%: Title %>.</h1>
             </hgroup>
-            <asp:DetailsView ID="DetailsView1" runat="server" Height="50px" Width="125px" AllowPaging="True" AutoGenerateRows="False" DataKeyNames="purchase_ID" DataSourceID="SqlDataSource1">
+            <asp:DetailsView ID="DetailsView1" runat="server" Height="50px" Width="500px" AllowPaging="True" AutoGenerateRows="False" DataKeyNames="purchase_ID" DataSourceID="SqlDataSource1">
                 <Fields>
                     <asp:BoundField DataField="purchase_ID" HeaderText="ID đơn hàng" ReadOnly="True" SortExpression="purchase_ID" />
                     <asp:BoundField DataField="username" HeaderText="Khách hàng" SortExpression="username" />
