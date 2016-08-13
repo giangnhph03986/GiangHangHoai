@@ -9,12 +9,12 @@
            
                 <asp:DetailsView ID="DetailsView1" runat="server" Height="50px" Width="125px" AllowPaging="True" AutoGenerateRows="False" DataKeyNames="product_ID" DataSourceID="SqlDataSource1">
                     <Fields>
-                        <asp:BoundField DataField="product_ID" HeaderText="product_ID" ReadOnly="True" SortExpression="product_ID" />
-                        <asp:BoundField DataField="name" HeaderText="name" SortExpression="name" />
-                        <asp:BoundField DataField="price" HeaderText="price" SortExpression="price" />
-                        <asp:BoundField DataField="description" HeaderText="description" SortExpression="description" />
-                        <asp:BoundField DataField="img" HeaderText="img" SortExpression="img" />
-                        <asp:BoundField DataField="cate_ID" HeaderText="cate_ID" SortExpression="cate_ID" />
+                        <asp:BoundField DataField="product_ID" HeaderText="Mã sản phẩm" ReadOnly="True" SortExpression="product_ID" />
+                        <asp:BoundField DataField="name" HeaderText="Tên sản phẩm" SortExpression="name" />
+                        <asp:BoundField DataField="price" HeaderText="Giá" SortExpression="price" />
+                        <asp:BoundField DataField="description" HeaderText="Mô tả" SortExpression="description" />
+                        <asp:ImageField DataImageUrlField="img" ControlStyle-CssClass="product-small-image"></asp:ImageField>
+                        <asp:BoundField DataField="cate_ID" HeaderText="Mã loại SP" SortExpression="cate_ID" />
                         <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" ShowInsertButton="True" />
                     </Fields>
                 </asp:DetailsView>
