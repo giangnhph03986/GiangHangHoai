@@ -6,7 +6,7 @@
             <hgroup class="title">
                 <h1><%: Title %>.</h1>
             </hgroup>
-            <p>
+         
                 <asp:DetailsView ID="DetailsView1" runat="server" Height="50px" Width="125px" AllowPaging="True" AutoGenerateRows="False" DataKeyNames="cate_ID" DataSourceID="SqlDataSource1">
                     <Fields>
                         <asp:BoundField DataField="cate_ID" HeaderText="cate_ID" ReadOnly="True" SortExpression="cate_ID" />
@@ -27,8 +27,7 @@
                         <asp:Parameter Name="cate_ID" Type="Int32" />
                     </UpdateParameters>
                 </asp:SqlDataSource>
-            </p>
-
+          
 
 
 
