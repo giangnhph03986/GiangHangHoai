@@ -2,7 +2,7 @@
 
 <asp:Content runat="server" ID="FeaturedContent" ContentPlaceHolderID="FeaturedContent">
     <section class="featured">
-        <div class="content-wrapper">
+        <div class="content-wrapper" style="background-color: #ff6a00">
             <hgroup class="title">
                 <h1><%: Title %>.</h1>
             </hgroup>
