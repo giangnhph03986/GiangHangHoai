@@ -5,6 +5,7 @@
         <div class="content-wrapper">
             <hgroup class="title">
                 <h1><%: Title %>.</h1>
+                <h2>hoai</h2>
             </hgroup>
          
                 <asp:DetailsView ID="DetailsView1" runat="server" Height="50px" Width="500px" AllowPaging="True" AutoGenerateRows="False" DataKeyNames="cate_ID" DataSourceID="SqlDataSource1">
