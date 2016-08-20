@@ -8,7 +8,7 @@
             </hgroup>
             <asp:DetailsView ID="DetailsView1" runat="server" Height="50px" Width="500px" AllowPaging="True" AutoGenerateRows="False" DataKeyNames="username" DataSourceID="SqlDataSource1">
                 <Fields>
-                    <asp:BoundField DataField="username" HeaderText="Tài khoản" ReadOnly="True" SortExpression="username" />
+                    <asp:BoundField DataField="username" HeaderText="Tai Khoan" ReadOnly="True" SortExpression="username" />
                     <asp:BoundField DataField="password" HeaderText="Mật khẩu" SortExpression="password" />
                     <asp:BoundField DataField="email" HeaderText="Email" SortExpression="email" />
                     <asp:BoundField DataField="address" HeaderText="Địa chỉ" SortExpression="address" />
