@@ -14,7 +14,7 @@
                     <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" ShowInsertButton="True" />
                 </Fields>
             </asp:DetailsView>
-            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:INF205_GIANGNHPH03986_ASSConnectionString %>" SelectCommand="SELECT [purchase_ID], [product_ID], [amount] FROM [purchase_detail]"></asp:SqlDataSource>
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:INF205_GIANGNHPH03986_ASSConnectionString %>" SelectCommand="SELECT [purchase_ID], [product_ID], [amount] FROM [purchase_detail]" UpdateCommand="UPDATE [purchase_detail] SET [product_ID]=@product_ID, [amount]=@amount WHERE [purchase_ID] = @purchase_ID" DeleteCommand="DELETE FROM [purchase_detail] WHERE [purchase_ID] = purchase_ID" InsertCommand="INSERT INTO [purchase_detail] ([purchase_ID], [product_ID], [amount]) VALUES (@purchase_ID, @product_ID, @amount)"></asp:SqlDataSource>
         </div>
     </section>
 </asp:Content>
